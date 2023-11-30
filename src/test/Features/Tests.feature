@@ -12,10 +12,10 @@ Feature: Testcases related to  holiday autos
     And verify search result page is loaded
     And total list of cars in the search result page
     Examples:
-      | city      | country     | pickupMonth | pickupDate | pickupTime | returnTime | returnMonth | returnDate |
-      | Dublin    | Ireland     | May 2023    | 12         | 10:30      | 11:00      | May 2023    | 21         |
-      | Amsterdam | Netherlands | April 2023  | 10         | 12:00      | 14:30      | April 2023  | 10         |
-      | Brussels  | Belgium     | April 2023  | 15         | 11:30      | 13:30      | June 2023   | 10         |
+      | city      | country     | pickupMonth   | pickupDate | pickupTime | returnTime | returnMonth  | returnDate |
+      | Dublin    | Ireland     | December 2023 | 12         | 10:30      | 11:00      | January 2024 | 21         |
+      | Amsterdam | Netherlands | December 2023 | 10         | 12:00      | 14:30      | January 2024 | 10         |
+      | Brussels  | Belgium     | December 2023 | 15         | 11:30      | 13:30      | January 2024 | 10         |
 
 
   Scenario: Verify the cheapest car price on search result page
